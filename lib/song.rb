@@ -7,7 +7,7 @@ class Song
     @name = name
     @album = album
   end
-
+#JUST#
   def self.drop_table
     sql = <<-SQL
       DROP TABLE IF EXISTS songs
